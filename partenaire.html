@@ -104,7 +104,260 @@
         </div>
         <!-- end header inner -->
     </header>
-
+    
+    <div class="row">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/punycode/1.4.1/punycode.min.js"></script>
+        <script src="https://cdn.jotfor.ms/static/prototype.forms.js" type="text/javascript"></script>
+        <script src="https://cdn.jotfor.ms/static/jotform.forms.js?3.3.25721" type="text/javascript"></script>
+        <script type="text/javascript">
+            JotForm.init(function(){
+        if (window.JotForm && JotForm.accessible) $('input_19').setAttribute('tabindex',0);
+        if (window.JotForm && JotForm.accessible) $('input_21').setAttribute('tabindex',0);
+        if (window.JotForm && JotForm.accessible) $('input_22').setAttribute('tabindex',0);
+              setTimeout(function() {
+                  $('input_3').hint('ex: myname@example.com');
+               }, 20);
+            JotForm.newDefaultTheme = false;
+            JotForm.extendsNewTheme = false;
+            JotForm.newPaymentUIForNewCreatedForms = false;
+              JotForm.alterTexts({"alphabetic":"Ce champ ne peut contenir que des lettres.","alphanumeric":"Ce champ ne peut contenir que des lettres et des chiffres.","confirmClearForm":"Êtes-vous certain d'effacer le formulaire?","confirmEmail":"Email ne correspond pas","email":"Saisir une adresse courriel valide","generalError":"Il y a des erreurs dans le formulaire. Merci de les corriger avant de continuer.","generalPageError":"Il ya des erreurs sur cette page. S'il vous plaît corriger avant de continuer.","gradingScoreError":"Le score total devrais être moins ou égal à","incompleteFields":"Des champs obligatoires ne sont pas complétés. Veuillez les compléter.","inputCarretErrorA":"L'entrée ne doit pas être inférieure à la valeur minimale:","inputCarretErrorB":"L'entré de devrais pas être plus grande que la valeur maximum:","lessThan":"Votre score devrait être inférieur ou égal à ","maxDigitsError":"Les chiffres maximum autorisé sont ","maxSelectionsError":"Vous avez sélectionné le maximum autorisé.","minSelectionsError":"Le nombre minimum requis de sélections est","multipleFileUploads_emptyError":"{file} est vide, veuillez sélectionner à nouveau les fichiers sans elle.","multipleFileUploads_minSizeError":"{file} est trop petite, la taille de fichier minimale est {minSizeLimit}.","multipleFileUploads_onLeave":"Les fichiers ont été envoyé, si vous quittez maintenant l'envoi sera annulé.","multipleFileUploads_sizeError":"{file} est trop grand, la taille maximale d'un fichier est {sizeLimit}.","multipleFileUploads_typeError":"{file} a invalide extension. Seulement {extensions} sont autorisées.","numeric":"Ce champ ne peut contenir que des valeurs numériques","pastDatesDisallowed":"La date doit pas être dans le passé","pleaseWait":"S'il vous plaît patienter...","required":"Ce champs est requis.","requireEveryRow":"Chaque ligne est nécessaire.","requireOne":"Au moins un champ est requis","submissionLimit":"Désolé ! Une seule inscription est permise. Les propositions multiples sont désactivés pour ce formulaire.","uploadExtensions":"Vous ne pouvez uploader que les fichiers suivants :","uploadFilesize":"La taille du fichier ne peut pas dépasser :"});
+            /*INIT-END*/
+            });
+        
+           JotForm.prepareCalculationsOnTheFly([null,{"name":"nomEt1","qid":"1","text":"Nom et prenom","type":"control_fullname"},{"name":"soumettre","qid":"2","text":"Soumettre","type":"control_button"},{"name":"email3","qid":"3","text":"Email","type":"control_email"},{"name":"numeroDe4","qid":"4","text":"Numero de telephone","type":"control_phone"},null,null,null,{"name":"civilite","qid":"8","text":"Civilite","type":"control_radio"},null,null,null,null,null,{"name":"cliquerPour","qid":"14","text":"Coordonnees","type":"control_head"},{"name":"cliquerPour15","qid":"15","text":"Identite","type":"control_head"},null,null,null,{"name":"adresse","qid":"19","text":"Adresse","type":"control_textbox"},null,{"name":"codePostal","qid":"21","text":"Code Postal","type":"control_textbox"},{"name":"ville","qid":"22","text":"Ville","type":"control_textbox"},{"name":"pays","qid":"23","text":"Pays","type":"control_dropdown"}]);
+           setTimeout(function() {
+        JotForm.paymentExtrasOnTheFly([null,{"name":"nomEt1","qid":"1","text":"Nom et prenom","type":"control_fullname"},{"name":"soumettre","qid":"2","text":"Soumettre","type":"control_button"},{"name":"email3","qid":"3","text":"Email","type":"control_email"},{"name":"numeroDe4","qid":"4","text":"Numero de telephone","type":"control_phone"},null,null,null,{"name":"civilite","qid":"8","text":"Civilite","type":"control_radio"},null,null,null,null,null,{"name":"cliquerPour","qid":"14","text":"Coordonnees","type":"control_head"},{"name":"cliquerPour15","qid":"15","text":"Identite","type":"control_head"},null,null,null,{"name":"adresse","qid":"19","text":"Adresse","type":"control_textbox"},null,{"name":"codePostal","qid":"21","text":"Code Postal","type":"control_textbox"},{"name":"ville","qid":"22","text":"Ville","type":"control_textbox"},{"name":"pays","qid":"23","text":"Pays","type":"control_dropdown"}]);}, 20); 
+        </script>
+        <link href="https://cdn.jotfor.ms/static/formCss.css?3.3.25721" rel="stylesheet" type="text/css" />
+        <link type="text/css" media="print" rel="stylesheet" href="https://cdn.jotfor.ms/css/printForm.css?3.3.25721" />
+        <link type="text/css" rel="stylesheet" href="https://cdn.jotfor.ms/css/styles/nova.css?3.3.25721" />
+        <link type="text/css" rel="stylesheet" href="https://cdn.jotfor.ms/themes/CSS/54be8ecb700cc443378b4568.css?themeRevisionID=5cf3a17a544a540fb772aaf1"/>
+        <link type="text/css" rel="stylesheet" href="https://cdn.jotfor.ms/css/styles/payment/payment_feature.css?3.3.25721" />
+        <style type="text/css">
+            .form-label-left{
+                width:130px;
+            }
+            .form-line{
+                padding-top:10px;
+                padding-bottom:10px;
+            }
+            .form-label-right{
+                width:100px;
+            }
+            .form-all{
+                width:700px;
+                color:#0c0608 !important;
+                font-family:'Open Sans';
+                font-size:14px;
+            }
+        </style>
+        
+        <style type="text/css" id="form-designer-style">
+            /* Injected CSS Code */
+        /*PREFERENCES STYLE*/
+            .form-all {
+              font-family: Open Sans, sans-serif;
+            }
+            .form-all .qq-upload-button,
+            .form-all .form-submit-button,
+            .form-all .form-submit-reset,
+            .form-all .form-submit-print {
+              font-family: Open Sans, sans-serif;
+            }
+            .form-all .form-pagebreak-back-container,
+            .form-all .form-pagebreak-next-container {
+              font-family: Open Sans, sans-serif;
+            }
+            .form-header-group {
+              font-family: Open Sans, sans-serif;
+            }
+            .form-label {
+              font-family: Open Sans, sans-serif;
+            }
+          
+            .form-label.form-label-auto {
+              
+            display: inline-block;
+            float: none;
+            text-align: left;
+          
+            }
+          
+            .form-line {
+              margin-top: 10px;
+              margin-bottom: 10px;
+            }
+          
+            .form-all {
+              max-width: 700px;
+              width: 100%;
+            }
+          
+            .form-label.form-label-left,
+            .form-label.form-label-right,
+            .form-label.form-label-left.form-label-auto,
+            .form-label.form-label-right.form-label-auto {
+              width: 130px;
+            }
+          
+            .form-all {
+              font-size: 14px
+            }
+            .form-all .qq-upload-button,
+            .form-all .qq-upload-button,
+            .form-all .form-submit-button,
+            .form-all .form-submit-reset,
+            .form-all .form-submit-print {
+              font-size: 14px
+            }
+            .form-all .form-pagebreak-back-container,
+            .form-all .form-pagebreak-next-container {
+              font-size: 14px
+            }
+          
+            .supernova .form-all, .form-all {
+              background-color: #ffffff;
+            }
+          
+            .form-all {
+              color: #0c0608;
+            }
+            .form-header-group .form-header {
+              color: #0c0608;
+            }
+            .form-header-group .form-subHeader {
+              color: #0c0608;
+            }
+            .form-label-top,
+            .form-label-left,
+            .form-label-right,
+            .form-html,
+            .form-checkbox-item label,
+            .form-radio-item label {
+              color: #0c0608;
+            }
+            .form-sub-label {
+              color: #262022;
+            }
+          
+            .supernova {
+              background-color: #cff18b;
+            }
+            .supernova body {
+              background: transparent;
+            }
+          
+            .form-textbox,
+            .form-textarea,
+            .form-dropdown,
+            .form-radio-other-input,
+            .form-checkbox-other-input,
+            .form-captcha input,
+            .form-spinner input {
+              background-color: #ffffff;
+            }
+          
+            .supernova {
+              background-image: none;
+            }
+            #stage {
+              background-image: none;
+            }
+          
+            .form-all {
+              background-image: none;
+            }
+          
+            .form-all {
+              position: relative;
+            }
+            .form-all:before {
+              content: "";
+              display: inline-block;
+              height: 140px;
+              position: absolute;
+              background-size: 140px 140px;
+              background-repeat: no-repeat;
+              width: 100%;
+            }
+            .form-all {
+              margin-top: 150px !important;
+            }
+            .form-all:before {
+              top: -150px;
+              background-position: top center;
+            }
+                   
+          .ie-8 .form-all:before { display: none; }
+          .ie-8 {
+            margin-top: auto;
+            margin-top: initial;
+          }
+          
+          /*PREFERENCES STYLE*//*__INSPECT_SEPERATOR__*/
+            /* Injected CSS Code */
+        </style>
+        
+        <link type="text/css" rel="stylesheet" href="https://cdn.jotfor.ms/css/styles/buttons/form-submit-button-simple_green_apple.css?3.3.25721"/>
+        <form class="jotform-form" action="https://submit.jotform.com/submit/211532015554546/" method="post" name="form_211532015554546" id="211532015554546" accept-charset="utf-8" autocomplete="on">
+          <input type="hidden" name="formID" value="211532015554546" />
+          <input type="hidden" id="JWTContainer" value="" />
+          <input type="hidden" id="cardinalOrderNumber" value="" />
+          <div role="main" class="form-all">
+            <ul class="form-section page-section">
+              <li id="cid_14" class="form-input-wide" data-type="control_head">
+                <div class="form-header-group  header-greek">
+                  <div class="header-text httal htvam">
+                    <h2 id="header_14" class="form-header" data-component="header">
+                      Déposer une annonce
+                    </h2>
+                  </div>
+                </div>
+              </li>
+              <li class="form-line" data-type="control_textbox" id="id_19">
+                <label class="form-label form-label-left form-label-auto" id="label_19" for="input_19"> Quel est le nom de votre annonce? </label>
+                <div id="cid_19" class="form-input">
+                  <input type="text" id="input_19" name="q19_adresse" data-type="input-textbox" class="form-textbox" size="20" value="" placeholder=" " data-component="textbox" aria-labelledby="label_19" />
+                </div>
+              </li>
+              <li class="form-line" data-type="control_dropdown" id="id_23">
+                <label class="form-label form-label-left form-label-auto" id="label_23" for="input_23"> Catégorie </label>
+                <div id="cid_23" class="form-input">
+                  <select class="form-dropdown" id="input_23" name="q23_pays" style="width:150px" data-component="dropdown" aria-labelledby="label_23">
+                    <option value="">  </option>
+                    <option value="Brabant wallon"> VTT </option>
+                    <option value="commune à facilité"> VTC </option>
+                    <option value="Bruxelles"> VAE </option>
+                    <option value="Namur"> Scooter </option>
+                    <option value="Hainaut"> Moto </option>
+                    <option value="Liège"> Roller </option>
+                    <option value="Luxembourg"> Skate </option>
+                  </select>
+                </div>
+              </li>
+              <li class="form-line" data-type="control_textarea" id="id_6">
+                <label class="form-label form-label-left form-label-auto" id="label_6" for="input_6"> Ecrivez Votre Annonce </label>
+                <div id="cid_6" class="form-input" data-layout="full">
+                  <textarea id="input_6" class="form-textarea" name="q6_requestingInformation" style="width:648px;height:163px" data-component="textarea" aria-labelledby="label_6"></textarea>
+                </div>
+              </li>
+              <li class="form-line" data-type="control_button" id="id_2">
+                <div id="cid_2" class="form-input-wide">
+                  <div style="margin-left:156px" data-align="auto" class="form-buttons-wrapper form-buttons-auto   jsTest-button-wrapperField">
+                    <button id="input_2" type="submit" class="form-submit-button form-submit-button-simple_green_apple submit-button jf-form-buttons jsTest-submitField" data-component="button" data-content="">
+                      Poster
+                    </button>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          
+          <div class="formFooter-heightMask">
+          </div>
+          
+        </form>            
+      </div>
     
 
     <footer>
@@ -220,3 +473,7 @@
 </body>
 
 </html>
+
+
+
+
